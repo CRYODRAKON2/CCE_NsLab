@@ -60,7 +60,7 @@ int main ()
 
   ipv4.SetBase ("172.16.2.0", "255.255.255.0");
   Ipv4InterfaceContainer i1i2 = ipv4.Assign (d1d2);
-
+  
 
   ipv4.SetBase ("10.1.2.0", "255.255.255.0");
   Ipv4InterfaceContainer csmaInterfaces;
